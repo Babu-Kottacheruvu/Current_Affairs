@@ -6,6 +6,10 @@ body {
   background: #f0f4f8;
   color: #333;
 }
+.container{
+  max-width: 100%;
+  height: 800px;
+}
 
 h1 {
   text-align: center;
@@ -69,3 +73,22 @@ h1 {
     padding: 1rem;
   }
 }
+
+footer {
+      background-color: #007acc;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: auto;
+    }
+
+    .footer-content h3 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .footer-content p {
+      margin: 0.5rem 0 0;
+      font-size: 0.95rem;
+      color: #e0f7ff;
+    }
